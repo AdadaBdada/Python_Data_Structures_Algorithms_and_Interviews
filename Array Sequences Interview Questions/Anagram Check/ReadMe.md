@@ -1,5 +1,7 @@
 ## 242. Valid Anagram
 
+#### Time complexity O(n)
+
 * First of all, we clean up the strings. Lowercase all the letters remove any whitespace
 * We do an edge case check, so this would quickly tell us if it's anagrams or not.
 * Otherwise we have a possibility of an anagrams, so moving along we create a dictionary called **count**. Then for every letter in that first string, if the letter already in our counting dictionary. we're jest gonna say count that letter so that key add 1 to that count. **Otherwise** set it equal to 1.
