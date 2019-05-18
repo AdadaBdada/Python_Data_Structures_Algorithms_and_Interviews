@@ -24,7 +24,7 @@ def rev_words(s):
             # The word starts at this index
             word_start = i
 
-            while i < lenght and s[i] not in spaces:
+            while i < length and s[i] not in spaces:
                 # Get index where word ends
                 i += 1
             # Append that word to the list
