@@ -49,3 +49,7 @@
 * New items can be added either the front or the rear
 * Likewise, existing items can be removed from either end
 * In a sense, this hybrid linear structure provides all the capabilities of stacks and queues in a single data structure
+* it is important to note that even though the deque can assume many of the characteristics of stacks and queues, it does not requrie the LIFO and FIFO orderings that are enforced by those data structures.
+* it is up to you to make consistent use of the addition and removal operations
+
+![Image of Deque](Deque.png)
